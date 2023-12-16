@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1 class="text-center">Wellcome profile page</h1>
+<a class="btn btn-primary btn-sm" href="{% url 'Change_with_pass' %}">Change Password With Old Password</a>
+<a class="btn btn-primary btn-sm" href="{% url 'change_without' %}">Change Password Without old password </a>
+{% endblock content %}
